@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SU Computer Science · Redesign</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container header-inner">
+            <div class="logo-area">
+                <div class="logo-icon">CS</div>
+                <div class="logo-text"><span>Stellenbosch</span> · Computer Science</div>
+            </div>
+            <nav class="desktop-nav">
+                <a href="#">Home</a>
+                <a href="#">Academics</a>
+                <a href="#">Research</a>
+                <a href="#">People</a>
+                <a href="#">News</a>
+                <a href="#">Contact</a>
+            </nav>
+            <button class="menu-toggle" id="menuToggle" aria-label="Menu">☰ Menu</button>
+        </div>
+        <div class="mobile-nav" id="mobileNav" style="display: none;">
+            <a href="#">Home</a>
+            <a href="#">Academics</a>
+            <a href="#">Research</a>
+            <a href="#">People</a>
+            <a href="#">News</a>
+            <a href="#">Contact</a>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container hero-grid">
+            <div class="hero-content">
+                <span class="hero-badge">✨ The new superpower</span>
+                <h1>Code the future <br><span class="highlight">at Stellenbosch</span></h1>
+                <p>Bill Gates, Mark Zuckerberg, and will.i.am agree: computer science is foundational. 90% of US schools don't teach it — we do, and we've been leading since 1972.</p>
+                <div class="hero-cta">
+                    <a href="#" class="btn-primary">Study with us</a>
+                    <a href="#" class="btn-outline">Explore research</a>
+                </div>
+            </div>
+            <div class="hero-quote">
+                <p>“Computer science is a liberal art for the 21st century.”</p>
+                <div>
+                    <span class="quote-avatar" style="background: #820000; color: white; display: flex; align-items: center; justify-content: center; font-weight: bold;">BG</span>
+                    <div class="quote-author"><strong>Bill Gates</strong> <span style="color:#64748b;">· Code.org</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="welcome-section">
+        <div class="container welcome-grid">
+            <div class="welcome-text">
+                <h2>Welcome to the Division</h2>
+                <div class="accent"></div>
+                <p>Founded in 1972, we are now the Computer Science Division within the Department of Mathematical Sciences. We bring together theory and practice — from Automata to Robotics, from NLP to Machine Learning.</p>
+                <p>Our 11 full-time academic staff and vibrant student community make this one of South Africa's leading CS departments.</p>
+                <div class="stats-mini">
+                    <div class="stat-item"><span class="stat-number">11</span> <br>Faculty</div>
+                    <div class="stat-item"><span class="stat-number">50+</span> <br>Postgrads</div>
+                </div>
+            </div>
+            <div class="welcome-image"></div>
+        </div>
+    </section>
+
+    <section class="programmes">
+        <div class="container">
+            <h2 class="section-title">Your path in CS</h2>
+            <div class="card-grid">
+                <div class="programme-card">
+                    <div class="programme-icon">📘</div>
+                    <h3>First Year</h3>
+                    <p>Foundations · coding · maths</p>
+                    <a href="#" class="card-link">find out more →</a>
+                </div>
+                <div class="programme-card">
+                    <div class="programme-icon">📗</div>
+                    <h3>Honours</h3>
+                    <p>Deepen & specialise</p>
+                    <a href="#" class="card-link">find out more →</a>
+                </div>
+                <div class="programme-card">
+                    <div class="programme-icon">📙</div>
+                    <h3>Masters</h3>
+                    <p>Research & coursework</p>
+                    <a href="#" class="card-link">find out more →</a>
+                </div>
+                <div class="programme-card">
+                    <div class="programme-icon">📕</div>
+                    <h3>Doctoral</h3>
+                    <p>Contribute new knowledge</p>
+                    <a href="#" class="card-link">find out more →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="research-section">
+        <div class="container">
+            <h2 class="section-title">Our research · <span style="color:#820000; font-weight: 300;">tap a tag</span></h2>
+            <div class="tag-container" id="researchTags">
+                <span class="research-tag" data-area="automata">Automata Theory</span>
+                <span class="research-tag" data-area="networks">Broadband & Mobile</span>
+                <span class="research-tag" data-area="software">Software Engineering</span>
+                <span class="research-tag" data-area="verification">Program Testing</span>
+                <span class="research-tag" data-area="robotics">Robotics</span>
+                <span class="research-tag" data-area="nlp">NLP</span>
+                <span class="research-tag" data-area="ml">Machine Learning</span>
+            </div>
+            <div id="research-output">
+                👆 Click any research tag to see a short description.
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-section">
+        <div class="container contact-grid">
+            <div>
+                <h2 style="font-size: 2rem; margin-bottom: 1rem;">Get in touch</h2>
+                <div class="contact-item">
+                    <div class="contact-icon">📍</div>
+                    <div>Private Bag X1, 7602 Matieland, South Africa</div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">📞</div>
+                    <div>+27 21 808 4232</div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">📧</div>
+                    <div>secretary@cs.sun.ac.za</div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">🎓</div>
+                    <div>undergrad@cs.sun.ac.za · postgrad@cs.sun.ac.za</div>
+                </div>
+            </div>
+            <div style="background: #1e293b; border-radius: 32px; padding: 2rem;">
+                <h3 style="margin-bottom: 1rem;">Enquiries</h3>
+                <p style="color: #b0c4de;">Administrative: secretary@cs.sun.ac.za<br>
+                Post-graduate: postgrad@cs.sun.ac.za<br>
+                Under-graduate: undergrad@cs.sun.ac.za</p>
+                <p style="margin-top: 1.5rem; color:#94a3b8;">🕒 Mon–Fri, 08:00–16:30</p>
+            </div>
+        </div>
+        <div class="container footer-note">
+            Computer Science Division, Dept of Mathematical Sciences · Stellenbosch University
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
